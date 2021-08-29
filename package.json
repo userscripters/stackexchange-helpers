@@ -1,6 +1,6 @@
 {
   "name": "@userscripters/stackexchange-helpers",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Various helpers for interacting with the Stack Exchange network",
   "scripts": {
     "test": "cross-env TS_NODE_PROJECT=test/tsconfig.json mocha -r ts-node/register",
@@ -9,6 +9,7 @@
     "prebuild": "npm run lint && npm run clean",
     "build": "npm run prebuild && tsc",
     "readme": "generate-readme",
+    "version": "npm run test && npm run build",
     "postversion": "bash ./scripts/postversion.sh"
   },
   "repository": {

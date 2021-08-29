@@ -1,3 +1,3 @@
-import { EditSubmitter } from "./editing/submit";
+import { submitEdit } from "./editing/submit";
 
-export { EditSubmitter };
+export { submitEdit };
