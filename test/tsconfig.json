@@ -1,0 +1,14 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "types": [
+            "@userscripters/stackexchange-global-types",
+            "mocha",
+            "chai",
+            "sinon"
+        ],
+        "module": "CommonJS"
+    },
+    "include": ["."],
+    "exclude": []
+}
