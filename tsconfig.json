@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
         "strict": true,
-        "removeComments": true,
         "lib": ["DOM", "DOM.Iterable", "ESNext"],
         "target": "es2019",
         "module": "es2020",
