@@ -9,5 +9,5 @@ export const getAnswers = async (
     questionId: number,
     options: GetAnswersOptions
 ) => {
-    await fetchAPI(`/questions/${questionId}/answers`, options);
+    return await fetchAPI(`/questions/${questionId}/answers`, options);
 };
