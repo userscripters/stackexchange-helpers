@@ -40,10 +40,9 @@ jobs:
                   scope: "@${{github.repository_owner}}"
             - run: |
                   npm config set //npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN
-                  npm install --production=false
+                  npm install
               env:
                   NODE_AUTH_TOKEN: ${{github.token}}
-                  NODE_ENV: production
             - run: npm publish
               env:
                   NODE_AUTH_TOKEN: ${{secrets.PAT}}
@@ -60,10 +59,9 @@ jobs:
                   scope: "@${{github.repository_owner}}"
             - run: |
                   npm config set //npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN
-                  npm install --production=false
+                  npm install
               env:
                   NODE_AUTH_TOKEN: ${{github.token}}
-                  NODE_ENV: production
             - run: |
                   npm config set //registry.npmjs.org/:_authToken=$NODE_AUTH_TOKEN
                   declare repo_name=$(echo "${{github.repository}}" | cut -d '/' -f 2)
