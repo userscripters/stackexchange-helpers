@@ -4,7 +4,10 @@ import { submitEdit } from "../src/editing/submit";
 
 describe("edit submit", () => {
     const originalFetch = globalThis.fetch;
-    const fakeFetch = sinon.fake(() => Promise.resolve({ status: 200 }));
+    const fakeFetch = sinon.fake(
+        (_input: RequestInfo, _init?: RequestInit) =>
+            Promise.resolve({ status: 200 } as Response)
+    );
 
     before(() => {
         //@ts-expect-error
@@ -31,7 +34,7 @@ describe("edit submit", () => {
             comment
         );
 
-        const [[url, init]] = fakeFetch.args;
+        const [[url, init]] = fakeFetch.args as [[string, { body: FormData; }]];
 
         expect(status).to.be.true;
         expect(fakeFetch.calledOnce).to.be.true;
