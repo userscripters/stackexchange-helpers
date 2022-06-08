@@ -5,7 +5,7 @@ import { submitEdit } from "../src/editing/submit";
 describe("edit submit", () => {
     const originalFetch = globalThis.fetch;
     const fakeFetch = sinon.fake(
-        (_input: RequestInfo, _init?: RequestInit) =>
+        (_input: RequestInfo | URL, _init?: RequestInit) =>
             Promise.resolve({ status: 200 } as Response)
     );
 
