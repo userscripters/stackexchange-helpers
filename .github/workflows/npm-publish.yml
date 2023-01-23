@@ -9,11 +9,11 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - uses: actions/checkout@v2
-            - name: Using Node 14
-              uses: actions/setup-node@v1
+            - uses: actions/checkout@v3
+            - name: Using Node 16
+              uses: actions/setup-node@v3
               with:
-                  node-version: 14
+                  node-version: 16
             - name: Update npm version to latest
               run: npm install -g npm@latest
             - name: Install dependencies
@@ -32,10 +32,10 @@ jobs:
         needs: build
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
-            - uses: actions/setup-node@v2
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
               with:
-                  node-version: 12
+                  node-version: 16
                   registry-url: https://npm.pkg.github.com
                   scope: "@${{github.repository_owner}}"
             - run: |
@@ -51,10 +51,10 @@ jobs:
         needs: build
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v2
-            - uses: actions/setup-node@v2
+            - uses: actions/checkout@v3
+            - uses: actions/setup-node@v3
               with:
-                  node-version: 14
+                  node-version: 16
                   registry-url: "https://registry.npmjs.org"
                   scope: "@${{github.repository_owner}}"
             - run: |
