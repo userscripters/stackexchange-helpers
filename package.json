@@ -39,7 +39,7 @@
     "@userscripters/stackexchange-api-types": "^3.4.0",
     "@types/node": "^20.10.4",
     "@types/sinon": "^17.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^5.62.0",
     "@userscripters/generate-readme": "^2.3.1",
     "@userscripters/stackexchange-global-types": "^2.7.0",
