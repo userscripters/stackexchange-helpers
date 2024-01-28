@@ -7,7 +7,8 @@
             "chai",
             "sinon"
         ],
-        "module": "CommonJS"
+        "module": "esnext",
+        "esModuleInterop": true
     },
     "include": ["."],
     "exclude": []
