@@ -3,11 +3,11 @@
 
 | Author       | Oleg Valter<br>[oleg.a.valter@gmail.com](mailto:oleg.a.valter@gmail.com) |
 | :----------- | :----------------------- |
-| Contributors |               |
-| Name         | @userscripters/stackexchange-helpers    |
-| Description  | Various helpers for interacting with the Stack Exchange network           |
-| License      | [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later)                 |
-| Version      | 0.2.0               |
+| Name | @userscripters/stackexchange-helpers |
+| Description | Various helpers for interacting with the Stack Exchange network |
+| License | [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later) |
+| Version | 0.2.0 |
+
 
 # Support
 
