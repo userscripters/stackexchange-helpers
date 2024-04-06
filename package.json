@@ -36,10 +36,10 @@
     "@types/chai": "^4.3.14",
     "@types/mocha": "^10.0.6",
     "@userscripters/stackexchange-api-types": "^3.4.0",
-    "@types/node": "^20.12.2",
+    "@types/node": "^20.12.5",
     "@types/sinon": "^17.0.3",
-    "@typescript-eslint/eslint-plugin": "^7.4.0",
-    "@typescript-eslint/parser": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
     "@userscripters/generate-readme": "^3.0.2",
     "@userscripters/stackexchange-global-types": "^2.8.0",
     "chai": "^5.1.0",
@@ -48,7 +48,7 @@
     "mocha": "^10.4.0",
     "sinon": "^17.0.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.3",
+    "typescript": "^5.4.4",
     "uglify-js": "^3.17.4"
   },
   "type": "module"
