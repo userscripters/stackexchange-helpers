@@ -33,13 +33,13 @@
   },
   "homepage": "https://github.com/userscripters/stackexchange-helpers#readme",
   "devDependencies": {
-    "@types/chai": "^4.3.16",
+    "@types/chai": "^4.3.17",
     "@types/mocha": "^10.0.7",
     "@userscripters/stackexchange-api-types": "^3.4.0",
-    "@types/node": "^20.14.12",
+    "@types/node": "^20.14.14",
     "@types/sinon": "^17.0.3",
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
-    "@typescript-eslint/parser": "^7.17.0",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
     "@userscripters/generate-readme": "^3.0.2",
     "@userscripters/stackexchange-global-types": "^2.8.0",
     "chai": "^5.1.1",
@@ -49,7 +49,7 @@
     "sinon": "^17.0.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",
-    "uglify-js": "^3.19.0"
+    "uglify-js": "^3.19.1"
   },
   "type": "module"
 }
